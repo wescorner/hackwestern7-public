@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Twinfo</title>
+<meta name="description" content="Hack for Hackwestern 7">
+<meta name="author" content="Tom Keech, Gregory Kalogeros, Wes Corner">
+<link rel="stylesheet" href="breakdownstyle.css">
+
+</head>
+<body onload ="drawChart()">
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="breakdown.html">Total Breakdown</a>
+  <a href="comparison.html">User Comparison</a>
+  <img src="./twinfologo.png" id="logo"> 
+</div>
+
+<!--Title-->
+<h1 id="title">Twitter Overall Site Breakdown</h1>
+
+<label for="timeframe" id = "test1">Choose a timeframe:</label>
+
+<select name="timeframe" id="timeframe" onchange="drawChart()">
+  <option value="alltime">All Time</option>
+  <option value="oneyear">One Year</option>
+  <option value="sixmonth">Six Months</option>
+  <option value="thirtyday">Thirty Days</option>
+  <option value="oneweek">One Week</option>
+  <option value="current">Current Day</option>
+</select>
+
+<div id="twitchart"></div>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="breakdownscript.js"></script>
+</body>
+</html>

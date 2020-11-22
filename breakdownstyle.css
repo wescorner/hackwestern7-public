@@ -1,0 +1,70 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;    
+    background: #1b86eb;
+}
+
+.topnav{
+    background-color: #045fb0;
+    overflow: hidden;
+}
+.topnav a{
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#title{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#timeframe{
+    text-align: center;
+    color: black;
+}
+#test1{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+}
+
+#twitchart{
+    position: absolute;
+    left: 32%;
+}
+#logo{
+    position: absolute;
+    width: 165px;
+    height: auto;
+    left: 86%;
+}
+.flex-container {
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    bottom: 10%;
+    left: 12%
+  }
+.input-group-add-on{
+    position: absolute;
+    left: 39%;
+  }
+
+  .btn-default{
+      position: absolute;
+      left: 40%;
+      bottom: -150%;
+  }
+  #header{
+      color: whitesmoke;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      text-align: center;
+  }
